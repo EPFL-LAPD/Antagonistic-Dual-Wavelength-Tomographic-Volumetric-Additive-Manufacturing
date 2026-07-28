@@ -1,0 +1,8 @@
+{
+  "activation_attenuation_coefficient_mm_inverse": 1.0,
+  "inhibition_attenuation_coefficient_mm_inverse": 1.2,
+  "activation_exposure_multiplier": 1.4,
+  "target_coverage_fraction": 0.9,
+  "model_threshold": 0.9,
+  "vial_diameter_mm": 5.0
+}

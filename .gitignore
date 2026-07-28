@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+output/
+**/output/
+
+*.npy
+*.exr
+*.log

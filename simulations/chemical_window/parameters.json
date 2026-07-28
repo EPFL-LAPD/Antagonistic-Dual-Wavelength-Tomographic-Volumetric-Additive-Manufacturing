@@ -1,0 +1,6 @@
+{
+  "activation_exposure_multiplier": 1.4,
+  "target_coverage_fraction": 0.9,
+  "gelation_value": 1.0,
+  "required_target_value": 1.5
+}

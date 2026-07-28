@@ -1,0 +1,60 @@
+{
+  "output": "output",
+  "vial": {
+    "type": "cylindrical",
+    "r_int": 2.828,
+    "r_ext": 3.69,
+    "ior": 1.486,
+    "ior_surrounding": 1.489,
+    "medium": {
+      "ior": 1.52,
+      "extinction": 0.1,
+      "albedo": 0.0,
+      "phase": {
+        "type": "rayleigh"
+      }
+    }
+  },
+  "projector": {
+    "type": "telecentric",
+    "motion": "circular",
+    "n_patterns": 227,
+    "resx": 250,
+    "resy": 250,
+    "pixel_size": 0.04,
+    "distance": 65.0,
+    "focus_distance": 65,
+    "aperture_radius": 0.5
+  },
+  "sensor": {
+    "type": "dda",
+    "scalex": 10.0,
+    "scaley": 10.0,
+    "scalez": 10.0,
+    "film": {
+      "type": "vfilm",
+      "resx": 305,
+      "resy": 305,
+      "resz": 305
+    }
+  },
+  "target": {
+    "filename": "gyroid.obj",
+    "size": 8
+  },
+  "loss": {
+    "type": "threshold",
+    "tl": 0.6,
+    "tu": 0.95,
+    "weight_sparsity": 1,
+    "K": 2,
+    "M": 4
+  },
+  "transmission_only": true,
+  "regular_sampling": false,
+  "filter_radon": true,
+  "n_steps": 150,
+  "spp": 30,
+  "spp_grad": 30,
+  "spp_ref": 30
+}
