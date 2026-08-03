@@ -116,9 +116,28 @@ python simulations/attenuation/run_simulation.py
 
 ## Reference
 
-Q. Thijssen, F. Wechsler, A. J. Ortega, J. A. Carroll, C. Moser, S. Van Vlierberghe and C. Barner-Kowollik, “Antagonistic Dual-Wavelength Tomographic Volumetric Additive Manufacturing,” *ChemRxiv* (2026). [https://doi.org/10.26434/chemrxiv.15006647/v1](https://doi.org/10.26434/chemrxiv.15006647/v1)
+This work: Q. Thijssen, F. Wechsler, A. J. Ortega, J. A. Carroll, C. Moser, S. Van Vlierberghe and C. Barner-Kowollik, “Antagonistic Dual-Wavelength Tomographic Volumetric Additive Manufacturing,” *ChemRxiv* (2026). [https://doi.org/10.26434/chemrxiv.15006647/v1](https://doi.org/10.26434/chemrxiv.15006647/v1)
 
-B. Nicolet, F. Wechsler, J. Madrid-Wolff, C. Moser and W. Jakob, “Inverse Rendering for Tomographic Volumetric Additive Manufacturing,” *ACM Transactions on Graphics* **43**(6), Article 228 (2024).
+The original Dr.TVAM work: B. Nicolet, F. Wechsler, J. Madrid-Wolff, C. Moser and W. Jakob, “Inverse Rendering for Tomographic Volumetric Additive Manufacturing,” *ACM Transactions on Graphics* **43**(6), Article 228 (2024).
+
+Please cite this preprint for now:
+```
+@article{
+doi:10.26434/chemrxiv.15006647/v1,
+author = {Quinten Thijssen  and Felix Wechsler  and Antonio J. Ortega  and Joshua A. Carroll  and Christophe Moser  and Sandra Van Vlierberghe  and Christopher Barner-Kowollik },
+title = {Antagonistic Dual-Wavelength Tomographic Volumetric Additive Manufacturing},
+journal = {ChemRxiv},
+volume = {2026},
+number = {0728},
+pages = {},
+year = {2026},
+doi = {10.26434/chemrxiv.15006647/v1},
+URL = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15006647/v1},
+eprint = {https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15006647/v1},
+abstract = {Tomographic volumetric additive manufacturing (TVAM) forms 3D objects by accumulating dose from angular light projections, but the same projections that cure the target also deposit background dose in the surrounding resin. Background irradiation is therefore an unavoidable limitation of TVAM; antagonistic dual-wavelength TVAM addresses it by incorporating wavelength-controlled radical generation and radical quenching into the reconstruction algorithm. A 405 nm channel activates Ivocerin to generate radicals, while a 365 nm channel cleaves onitrobenzyl–TEMPO to release the radical quencher TEMPO. Programmable inhibition therefore becomes a second tomographic field which suppresses accumulated background response while retaining the target response, defines feature boundaries by activation–inhibition balance and can carry complete 3D shape information. Antagonistic TVAM therefore expands TVAM from optical reconstruction to the programming of chemical fields. Simulations further show that this chemical degree of freedom can expand the accessible material window, oppose diffusion-driven boundary broadening and suppress attenuation-induced overexposure.}}
+```
+
+
 
 ## Licence
 
