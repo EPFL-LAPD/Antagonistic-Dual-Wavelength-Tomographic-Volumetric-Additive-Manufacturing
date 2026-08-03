@@ -122,8 +122,7 @@ The original Dr.TVAM work: B. Nicolet, F. Wechsler, J. Madrid-Wolff, C. Moser an
 
 Please cite this preprint for now:
 ```
-@article{
-doi:10.26434/chemrxiv.15006647/v1,
+@article{antagonistic_TVAM,
 author = {Quinten Thijssen  and Felix Wechsler  and Antonio J. Ortega  and Joshua A. Carroll  and Christophe Moser  and Sandra Van Vlierberghe  and Christopher Barner-Kowollik },
 title = {Antagonistic Dual-Wavelength Tomographic Volumetric Additive Manufacturing},
 journal = {ChemRxiv},
