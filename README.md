@@ -11,7 +11,7 @@
   
   <p align="center">
     <br />
-    <a href="mailto:quinten.thijssen@ugent.be"><strong>Quinten Thijssen</strong></a>
+    <a href="https://quintenthijssen.com"><strong>Quinten Thijssen</strong></a>
     ·
     <a href="https://www.felixwechsler.science/"><strong>Felix Wechsler †</strong></a>
     ·
